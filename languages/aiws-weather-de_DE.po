@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MRDN Weather\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Fri Jul 15 2016 11:31:39 GMT+0200\n"
+"PO-Revision-Date: Fri Jul 15 2016 20:54:57 GMT+0200\n"
+"Last-Translator: admin <martin.krisch@ewetel.net>\n"
+"Language-Team: \n"
+"Language: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: de_DE\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: ../mrdn-weather.php:284
+msgid ""
+"The OpenWeatherMap API requires a citycode to find the exact city you want "
+"to get the data from. To find the citycode, simply go to <a href=\"http://www."
+"openweathermap.org\" target=\"_blank\">www.openweathermap.org</a> and search "
+"for your city. Open the site and have a look at the URL, for example:"
+"<br><code>http://openweathermap.org/city/2857458</code>. The number at the "
+"end of the URL is the citycode."
+msgstr ""
+"Die OpenWeatherMap-API ben&ouml;tigt einen Citycode, um die exakte "
+"Temperatur der Stadt zu finden, die du haben m&ouml;chtest. Um diesen "
+"Citycode zu finden, gehe einfach auf <a href=\"http://www.openweathermap.org\" "
+"target=\"_blank\">www.openweathermap.org</a> und suche nach der Stadt. &Ouml;"
+"ffne die Ergebnisseite und schau dir die URL genau an, zum Beispiel:"
+"<br><code>http://openweathermap.org/city/2857458</code>. Die Nummer am Ende "
+"ist der Citycode."
+
+#: ../mrdn-weather.php:287
+msgid "Some plans might require to mention the service on your blog."
+msgstr "Einige Abonnements k&ouml;nnten eine Erw&auml;hnung auf dem Blog verlangen."
+
+#: ../mrdn-weather.php:290
+msgid ""
+"Simply place the shortcode <code>[temp]</code> wherever you want to display "
+"the current temperature of your default city. Thats all!"
+msgstr ""
+"Gib einfach den Shortcode <code>[temp]</code> da ein, wo du die aktuelle "
+"Temperatur der Standard-Stadt anzeigen m&ouml;chtest. Das war's!"
+
+#: ../mrdn-weather.php:291
+msgid ""
+"However, the most common use is to display the current temperature of a "
+"certain city by using an optional parameter. Simply put <code>[temp "
+"citycode=\"xxxxxxx\"]</code> wherever you want, to get the temperature from "
+"the city you want."
+msgstr ""
+"Die gebr&auml;uchlichste Weise ist, die aktuelle Temperatur einer bestimmten "
+"Stadt mit Hilfe des optionalen Parameters auszugeben . F&uuml;ge einfach "
+"<code>[temp citycode=\"xxxxxxx\"]</code> ein, wo immer du m&ouml;chtest, um "
+"die Temperatur einer bestimmte Stadt auszugeben."
+
+#: ../mrdn-weather.php:294
+msgid "If you omit <code>citycode=\"xxxxxxx\"</code> the default citycode is used."
+msgstr ""
+"Wenn du <code>citycode=\"xxxxxxx\"</code> wegl&auml;sst, wird die Standard-"
+"Stadt verwendet."
+
+#: ../mrdn-shortcode.php:58
+msgid "[error 870]"
+msgstr "[Fehler 870]"
+
+#: ../mrdn-shortcode.php:72
+msgid "[error 872]"
+msgstr "[Fehler 872]"
+
+#: ../mrdn-shortcode.php:174
+msgid "[error 877]"
+msgstr "[Fehler 877]"
+
+#. Name of the plugin
+msgid "MRDN Weather"
+msgstr "MRDN Weather"
+
+#. URI of the plugin
+msgid "mrdn.ichbinmartin.de"
+msgstr "mrdn.ichbinmartin.de"
+
+#. Author of the plugin
+msgid "Martin J Krisch - Webdesign & Photographie"
+msgstr "Martin J Krisch - Webdesign & Photographie"
+
+#. Author URI of the plugin
+msgid "http://ichbinmartin.de"
+msgstr "http://ichbinmartin.de"
+
+#. Description of the plugin
+msgid ""
+"Display wheather data (currently: temperature) for the current date or a "
+"forecast (up to five days) from openweathermap.org."
+msgstr ""
+"Zeige Wetterdaten (zur Zeit: Temperatur) f&uuml;r den aktuellen Tag oder "
+"eine Vorhersage (bis zu 5 Tage) von openweathermap.org."
+
+#: ../mrdn-weather.php:58
+msgid "MRDN Weather Settings"
+msgstr "MRDN Weather Einstellungen"
+
+#: ../mrdn-weather.php:71
+msgid "Account Settings"
+msgstr "Account Einstellungen"
+
+#: ../mrdn-weather.php:78
+msgid "Your API Key"
+msgstr "Dein API-Key"
+
+#: ../mrdn-weather.php:80
+msgid "Choose the unit"
+msgstr "W&auml;hle das System"
+
+#: ../mrdn-weather.php:82
+msgid "Display unit symbol?"
+msgstr "Zeige Einheitensymbol?"
+
+#: ../mrdn-weather.php:84
+msgid "Code for default city"
+msgstr "Code für die Standard-Stadt"
+
+#: ../mrdn-weather.php:120
+msgid "Get your API-Key on"
+msgstr "Hole dir den API-Key auf"
+
+#: ../mrdn-weather.php:144
+msgid "Metric"
+msgstr "Metrisch"
+
+#: ../mrdn-weather.php:144
+msgid "Imperial"
+msgstr "Imperial"
+
+#: ../mrdn-weather.php:165
+msgid "Yes"
+msgstr "Ja"
+
+#: ../mrdn-weather.php:165
+msgid "No"
+msgstr "Nein"
+
+#: ../mrdn-weather.php:178
+msgid ""
+"This city is used, if you omit the optional parameter \"citycode\" in your "
+"shortcode. Useful for repeating weather data of one specific city throughout "
+"the blog."
+msgstr ""
+"Diese Stadt wird benutzt, wenn du im Shortcode den optionalen Parameter "
+"\"citycode\" wegl&auml;sst. Das ist n&uuml;tzlich, wenn eine bestimmte Stadt "
+"an mehreren Stellen im Blog verwendet werden soll."
+
+#: ../mrdn-weather.php:210
+msgid "No API-Key set."
+msgstr "Kein API-Key gesetzt."
+
+#: ../mrdn-weather.php:225
+msgid "Error trying to connect to the server."
+msgstr "Fehler beim Verbindungsversuch zum Server."
+
+#: ../mrdn-weather.php:239 ../mrdn-weather.php:257
+msgid "This API-Key is valid."
+msgstr "Dieser API-Key ist g&uuml;tig."
+
+#: ../mrdn-weather.php:242
+msgid "City not found."
+msgstr "Stadt konnte nicht gefunden werden."
+
+#: ../mrdn-weather.php:250
+msgid "This API-Key is not valid."
+msgstr "Dieser API-Key ist ung&uuml;tig."
+
+#: ../mrdn-weather.php:266
+msgid "Unknown error."
+msgstr "Unbekannter Fehler."
+
+#: ../mrdn-weather.php:279
+msgid "Quick help"
+msgstr "Schnellhilfe"
+
+#: ../mrdn-weather.php:280
+msgid "Getting started"
+msgstr "Start"
+
+#: ../mrdn-weather.php:281
+msgid "API-Key"
+msgstr "API-Key"
+
+#: ../mrdn-weather.php:282
+msgid ""
+"The OpenWeatherMap API requires an API-Key. They offer different plans (and "
+"even a free one) for which you can sign up. Simply go to "
+msgstr ""
+"Die OpenWeatherMap-API verlangt einen API-Key. Melde dich f&uuml;r eines der "
+"Abonnements an (es gibt auch einen kostenlosen Account). Gehe dazu einfach "
+"auf "
+
+#: ../mrdn-weather.php:283
+msgid "Citycode"
+msgstr "Citycode"
+
+#: ../mrdn-weather.php:285
+msgid ""
+"There will be an easier way to access the citycode via this plugin in future,"
+" stay tuned!"
+msgstr ""
+"Es wird in Zukunft einen einfacheren Weg geben, um den Citycode "
+"herauszufinden. Wir informieren euch!"
+
+#: ../mrdn-weather.php:286
+msgid "Licensing"
+msgstr "Lizenz"
+
+#: ../mrdn-weather.php:287
+msgid "Read the licensing information carefully on "
+msgstr "Lies die Lizenz-Informationen auf"
+
+#: ../mrdn-weather.php:288
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: ../mrdn-weather.php:289
+msgid "Current Temperature"
+msgstr "Aktuelle Temperatur"
+
+#: ../mrdn-weather.php:292
+msgid "Temperature forecast"
+msgstr "Temperatur Vorhersage"
+
+#: ../mrdn-weather.php:293
+msgid ""
+"To display a temperature forecast for up to five days use <code>[tempDay "
+"day=\"x\" citycode=\"xxxxxxx\"]</code> shortcode. Both parameters are optional, "
+"if you omit <code>day=\"x\"</code>, the shortcode will return temperature of "
+"the current day. Possible values are <code>0 - 5</code>."
+msgstr ""
+"Um eine Temperaturvorhersage f&uuml;r bis zu 5 Tage anzuzeigen, nutze den "
+"<code>[tempDay day=\"x\" citycode=\"xxxxxxx\"]</code> shortcode. Beide Parameter "
+"sind optional, wenn du <code>day=\"x\"</code> wegl&auml;sst, wird die "
+"Temperatur des aktuellen Tags ausgegeben. M&ouml;gliche Werte sind <code>0 - "
+"5</code>."
+
+#: ../mrdn-weather.php:296
+msgid "Other Shortcodes"
+msgstr "Weitere Shortcodes"
+
+#: ../mrdn-weather.php:297
+msgid "More options and other shortcodes will be added permanently!"
+msgstr "Weitere Optionen und Shortcodes werden laufend erg&auml;nzt!"
